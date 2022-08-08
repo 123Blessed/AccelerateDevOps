@@ -5,20 +5,20 @@
 # See https://console.cloud.google.com/projectselector2/home/dashboard
 
 # Set parameters
-export GKE_PROJECT=valid-octagon-330106
-export GKE_CLUSTER=xyz-demo-cluster
-export GKE_APP_NAME=xyz-demo-shop
-export GKE_SERVICE=xyz-service
-export GKE_SERVICE_ACCOUNT=xyz-serviceaccount
-export GKE_DEPLOYMENT_NAME=xyz-demo-shop-deployment
+export GKE_PROJECT=dev2-284212
+export GKE_CLUSTER=ops-demo-cluster
+export GKE_APP_NAME=ops-demo-shop
+export GKE_SERVICE=ops-service
+export GKE_SERVICE_ACCOUNT=ops-serviceaccount
+export GKE_DEPLOYMENT_NAME=ops-demo-shop-deployment
 
 # Get a list of regions:
 # $ gcloud compute regions list
 #
 # Get a list of zones:
 # $ gcloud compute zones list
-export GKE_REGION=europe-west3
-export GKE_ZONE=europe-west3-a
+export GKE_REGION=us-east1
+export GKE_ZONE=us-east1-b
 
 # Just a placeholder for the first deployment
 export GITHUB_SHA=Test
