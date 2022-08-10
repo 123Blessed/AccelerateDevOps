@@ -3,7 +3,7 @@ name: Deploy-GKE
 on: [workflow_dispatch]
 
 env:
-  GKE_PROJECT: ${{ secrets.GKE_PROJECT }}
+  GKE_PROJECT: dev2-284212
   GKE_CLUSTER: ops-demo-cluster
   GKE_APP_NAME: ops-demo-shop
   GKE_SERVICE: ops-service
